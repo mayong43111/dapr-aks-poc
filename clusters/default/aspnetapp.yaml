@@ -5,7 +5,6 @@ metadata:
   labels:
     app: aspnetapp
 spec:
-  replicas: 3
   containers:
   - image: "mcr.microsoft.com/dotnet/core/samples:aspnetapp"
     name: aspnetapp-image
