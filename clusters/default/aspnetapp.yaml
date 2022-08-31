@@ -11,6 +11,7 @@ spec:
     ports:
     - containerPort: 80
       protocol: TCP
+    minReplicas: 3
 
 ---
 
