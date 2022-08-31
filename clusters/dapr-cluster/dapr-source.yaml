@@ -3,7 +3,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: GitRepository
 metadata:
   name: dapr-poc
-  namespace: flux-system
+  namespace: dapr-poc
 spec:
   interval: 30s
   ref:
