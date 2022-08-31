@@ -5,13 +5,13 @@ metadata:
   labels:
     app: aspnetapp
 spec:
+  minReplicas: 3
   containers:
   - image: "mcr.microsoft.com/dotnet/core/samples:aspnetapp"
     name: aspnetapp-image
     ports:
     - containerPort: 80
       protocol: TCP
-    minReplicas: 3
 
 ---
 
