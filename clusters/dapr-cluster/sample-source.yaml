@@ -8,5 +8,5 @@ spec:
   interval: 30s
   ref:
     branch: main
-  url: https://github.com/mayong43111/default-namespace
+  url: https://github.com/mayong43111/dapr-aks-poc/default-namespace
 
