@@ -2,14 +2,14 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
 metadata:
-  name: dapr-poc
+  name: mcs-dapr-poc-frontend
   namespace: flux-system
 spec:
   interval: 5m0s
-  path: ./dapr
+  path: ./mcs-dapr-poc-frontend/kubernetes
   prune: true
   sourceRef:
     kind: GitRepository
-    name: dapr-poc
-  targetNamespace: dapr-poc
+    name: mcs-dapr-poc-frontend
+  targetNamespace: mcs-dapr-poc-frontend
 
