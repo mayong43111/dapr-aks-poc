@@ -8,4 +8,4 @@ spec:
   interval: 30s
   ref:
     branch: main
-  url: https://github.com/mayong43111/dapr-aks-poc
+  url: https://github.com/mayong43111/dapr-spark-poc
